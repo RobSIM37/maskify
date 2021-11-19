@@ -1,4 +1,4 @@
-const maskify=(str,show)=>str.length>show?"#".repeat(str.length-show) + str.slice(-show):str.slice(-show);
+const maskify=(str,show)=>str.length>show?"#".repeat(str.length-show) + str.slice(-show):str;
 
 let currentShow = 4;
 console.log(maskify('Hello World!', currentShow));
